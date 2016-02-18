@@ -12,5 +12,6 @@ URL: https://github.com/gmonaie/LinnisSettles
 Depends:
     R (>= 3.1.0),
     dplyr (>= 0.4.1),
-    Quandl (>= 2.7.0)
+    Quandl (>= 2.7.0),
+    LinnisCommons (>= 2.2.0)
 LazyData: true

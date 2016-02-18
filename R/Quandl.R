@@ -9,6 +9,7 @@ retQuandlIDs <- function() {
   return(fr)
 }
 
+#' @importFrom LinnisCommons mstr
 #' @export
 retQuandlIDsQuery <- function() {
 	query <- mstr("
