@@ -1,0 +1,10 @@
+{
+	run: settles_task.R,
+	runtime-explicit: [
+  		[1, "17:35", "America/New_York"],
+  		[2, "17:35", "America/New_York"],
+  		[3, "17:35", "America/New_York"],
+  		[4, "17:35", "America/New_York"],
+  		[5, "17:35", "America/New_York"]
+  	]
+}
