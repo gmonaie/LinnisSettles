@@ -5,7 +5,8 @@ uploadAllSettles <- function(dryRun = FALSE) {
 	linnisOpenDryRun(dryRun = dryRun)
 
 	upsertAllQuandl()
-	upsertAllFX()
+	upsertECBrates()
+	# upsertAllFX()
 
 	linnisCloseDryRun(dryRun = dryRun)
 }
