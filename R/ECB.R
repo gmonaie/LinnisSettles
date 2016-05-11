@@ -1,4 +1,5 @@
 #' @importFrom dplyr mutate %>% select arrange summarize group_by
+#' @importFrom jsonlite fromJSON
 #' @export
 retECBrates <- function(base_currency = 'USD', date) {
 	#	http://api.fixer.io/latest?base=USD
